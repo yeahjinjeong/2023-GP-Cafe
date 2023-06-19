@@ -12,28 +12,182 @@ exports.findAll = (req, res)=>{
     });
 };
 
-// exports.findClass = (req, res)=>{
-//     Cafe.getClass((err, data)=>{
-//         if (err){
-//             res.status(500).send({
-//                 message:
-//                 err.message || "Some error occured"
-//             });
-//         }
-//         else res.send(data);
-//     });
-// };
+exports.findBrunch = (req, res)=>{
+    Cafe.getBrunch((err, data)=>{
+        if (err){
+            res.status(500).send({
+                message:
+                err.message || "Some error occured"
+            });
+        }
+        else res.send(data);
+    });
+};
 
 exports.findCoffee = (req, res)=>{
-    // if (req == {secondSelect: '커피'}){
-        Cafe.getClass((err, data)=>{
-            if (err){
-                res.status(500).send({
-                    message:
-                    err.message || "Some error occured"
-                });
-            }
-            else res.send(data);
-        });
-    // }
+    Cafe.getCoffee((err, data)=>{
+        if (err){
+            res.status(500).send({
+                message:
+                err.message || "Some error occured"
+            });
+        }
+        else res.send(data);
+    });
+};
+
+exports.findTea = (req, res)=>{
+    Cafe.getTea((err, data)=>{
+        if (err){
+            res.status(500).send({
+                message:
+                err.message || "Some error occured"
+            });
+        }
+        else res.send(data);
+    });
+};
+
+exports.findDessert = (req, res)=>{
+    Cafe.getDessert((err, data)=>{
+        if (err){
+            res.status(500).send({
+                message:
+                err.message || "Some error occured"
+            });
+        }
+        else res.send(data);
+    });
+};
+
+exports.findVegan = (req, res)=>{
+    Cafe.getVegan((err, data)=>{
+        if (err){
+            res.status(500).send({
+                message:
+                err.message || "Some error occured"
+            });
+        }
+        else res.send(data);
+    });
+};
+
+exports.findStudy = (req, res)=>{
+    Cafe.getStudy((err, data)=>{
+        if (err){
+            res.status(500).send({
+                message:
+                err.message || "Some error occured"
+            });
+        }
+        else res.send(data);
+    });
+};
+
+exports.findTeam = (req, res)=>{
+    Cafe.getTeam((err, data)=>{
+        if (err){
+            res.status(500).send({
+                message:
+                err.message || "Some error occured"
+            });
+        }
+        else res.send(data);
+    });
+};
+
+exports.findLarge = (req, res)=>{
+    Cafe.getLarge((err, data)=>{
+        if (err){
+            res.status(500).send({
+                message:
+                err.message || "Some error occured"
+            });
+        }
+        else res.send(data);
+    });
+};
+
+exports.findChat = (req, res)=>{
+    Cafe.getChat((err, data)=>{
+        if (err){
+            res.status(500).send({
+                message:
+                err.message || "Some error occured"
+            });
+        }
+        else res.send(data);
+    });
+};
+
+exports.findChild = (req, res)=>{
+    Cafe.getChild((err, data)=>{
+        if (err){
+            res.status(500).send({
+                message:
+                err.message || "Some error occured"
+            });
+        }
+        else res.send(data);
+    });
+};
+
+exports.findSenior = (req, res)=>{
+    Cafe.getSenior((err, data)=>{
+        if (err){
+            res.status(500).send({
+                message:
+                err.message || "Some error occured"
+            });
+        }
+        else res.send(data);
+    });
+};
+
+exports.findParty = (req, res)=>{
+    Cafe.getParty((err, data)=>{
+        if (err){
+            res.status(500).send({
+                message:
+                err.message || "Some error occured"
+            });
+        }
+        else res.send(data);
+    });
+};
+
+exports.findSns = (req, res)=>{
+    Cafe.getSns((err, data)=>{
+        if (err){
+            res.status(500).send({
+                message:
+                err.message || "Some error occured"
+            });
+        }
+        else res.send(data);
+    });
+};
+
+exports.findRest = (req, res)=>{
+    Cafe.getRest((err, data)=>{
+        if (err){
+            res.status(500).send({
+                message:
+                err.message || "Some error occured"
+            });
+        }
+        else res.send(data);
+    });
+};
+
+exports.findTheme = (req, res)=>{
+    Cafe.getTheme((err, data)=>{
+        if (err){
+            res.status(500).send({
+                message:
+                err.message || "Some error occured"
+            });
+        }
+        else res.send(data);
+    });
 };
